@@ -1,0 +1,21 @@
+#menu{
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 2px 2px 0px black;
+    background-color: gainsboro;
+}
+
+.para{
+    text-decoration-style: wavy;
+    font-family: Garamond;
+}
+
+.exergue{
+    font-size: x-large;
+    background-color: black;
+    color: white;
+}
+#contenu{
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 2px 2px 0px black;
+    background-color: gainsboro;
+}

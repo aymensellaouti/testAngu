@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/atelier.css" rel="stylesheet" >
+
+</head>
+<body>
+<div id="menu">Mes options : Mettre en exergue le paragraphe au click
+    <input class="allow" type="checkbox" id="exergueCheck">
+    Taille de l'écriture : <input maxlength="5" type="number" id="tailleEcri">
+    Police <select id="policeSelec">
+                <option value="garamond" selected>Garamond</option>
+                <option value="times"> Times</option>
+                <option value="verdana"> Verdana</option>
+           </select>
+</div>
+<div id="contenu">
+<p class="para">
+    Bonjour paragraphe 1 <a href="google.fr"> Google</a>
+</p>
+
+<p class="para">
+    Bonjour paragraphe 2 <a href="www.w3c.com"> W3C</a>
+</p>
+
+<form name="monFormulaire" id="monForm" method="get" action="#">
+
+
+    <label for="pseudo">Pseudo</label> <input type="text" id="pseudo"> * Le pseudo ne doit contenir que des lettres alphabétique miniscule ou des chifres
+<br>
+    <label for="email">Email</label> <input type="text" id="email">
+<br>
+    <label for="cp">Code postal</label> <input type="text" id="cp">
+<br>
+
+    <input type="submit" value="envoyer">
+    <input type="reset" value="reset">
+
+
+</form>
+
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>

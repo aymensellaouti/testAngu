@@ -1,0 +1,18 @@
+
+<?php
+session_start();
+if (isset($_SESSION['sehelheadmin'])){
+
+?>
+
+
+
+<?php
+}
+else
+{
+//  die('adconnecti');
+  $redirect="../adconnecti.php";
+  include 'redirection.php';
+}
+?>
